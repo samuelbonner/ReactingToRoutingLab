@@ -1,4 +1,8 @@
-# Instructions
+# Reacting to Routing
+
+We're gonna be building pretty much the same application we made in the Reacting to APIs lab. This time we'll be using routing and multiple components instead of a bunch of conditional renders. Instead of an anchor that leads to the API resource page we're gonna be building a route and component designed to use a route parameter and display the detail's of that resource in that component directly. Fancy!
+
+## Instructions
 
 1. Configure React Router in your application. You may use the same structure as the walkthrough video, or (if you have a better idea) you may decide on your own structure. Just make sure that it works!
 
