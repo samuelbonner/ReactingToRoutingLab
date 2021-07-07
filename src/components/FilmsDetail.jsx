@@ -20,7 +20,7 @@ const FilmsDetail = () => {
           `There was an error fetching films API for ${filmid}. Specifically: ${err}`
         );
       });
-  }, []);
+  }, [filmid]);
 
   return (
     <>

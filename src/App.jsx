@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route} from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import People from "./components/People";
 import PeopleDetail from "./components/PeopleDetail";
 import Films from "./components/Films";

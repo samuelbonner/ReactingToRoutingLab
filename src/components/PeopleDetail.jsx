@@ -20,7 +20,7 @@ const PeopleDetail = () => {
           `"There was an error fetching people API. Specifically: ${err}"`
         );
       });
-  }, []);
+  }, [peopleid]);
 
   return (
     <>
@@ -32,7 +32,7 @@ const PeopleDetail = () => {
             <p className="card-text">Gender: {people?.gender}</p>
             <p className="card-text text-muted">
               <a href={people?.url} target="_blank" rel="noreferrer">
-                Link to their JSON info
+                Link to their JSON info (external popup)
               </a>
             </p>
           </div>

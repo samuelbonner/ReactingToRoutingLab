@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Films = () => {
   const [films, setFilms] = useState([]);
@@ -32,6 +33,7 @@ const Films = () => {
                 <span>Release Year: {film.release_date}</span>
                 <span>Run Time (min): {film.running_time}</span>
               </p>
+              <Link to={`/films/${film.id}`} className="btn btn-outline-success mx-5">More Information</Link>
             </div>
           </div>
         </div>

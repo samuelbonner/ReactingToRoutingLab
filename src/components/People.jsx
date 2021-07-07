@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const People = (props) => {
   const [people, setPeople] = useState([]);
@@ -34,6 +36,7 @@ const People = (props) => {
                   Link to their JSON info
                 </a>
               </p>
+              <Link to={`/people/${people.id}`} className="btn btn-outline-success mx-5">More Information</Link>
             </div>
           </div>
         </div>
