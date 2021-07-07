@@ -22,7 +22,6 @@ const PeopleDetail = () => {
       });
   }, []);
 
-  // props.people needs to display: name, age, gender, and a link to that particular person's JSON response that will open in a new tab
   return (
     <>
       <div className="col-sm-6 mb-3" key={people?.id}>

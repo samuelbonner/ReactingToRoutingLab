@@ -6,15 +6,7 @@ import Films from "./components/Films";
 import FilmsDetail from "./components/FilmsDetail";
 import Navbar from "./components/Navbar";
 
-// To Do:
-// 
-// 4. Once you have that route working, configure another one for `/films/:filmid`. With this route, you should be able to craft a Link for any film you have displayed on `/films` to navigate to `/films/<id>`, where you will list out all of the information pertaining to only that film.
-// 5. Repeat step 4 for people & peopleid
-
-
 const App = () => {
-
-
   return (
     <BrowserRouter>
       <Navbar />
